@@ -1,6 +1,6 @@
 flask
 flask-cors
 python-dotenv
-pymongo[srv]
+pymongo[srv]==3.6
 bcrypt
 uuid
