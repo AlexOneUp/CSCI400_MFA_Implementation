@@ -11,7 +11,7 @@ from mongo import create_user, auth_user
 app = Flask(__name__)
 CORS(app)
 
-@app.route("/")
+@app.route("/", methods=["GET", "POST"])
 def main():
     return "<p>main endpoint done</p>"
 
